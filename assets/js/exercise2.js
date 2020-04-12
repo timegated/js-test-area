@@ -61,7 +61,7 @@ function createRowForName() {
     tableData.appendChild(tr)
     studentRecords.forEach(function getName(student) {
         var td = document.createElement('td');
-        td.textContent = student.name;
+        td.textContent = `Name: ${student.name}`;
         tr.appendChild(td)
     })
 }
@@ -71,7 +71,7 @@ function createRowForId() {
     tableData.appendChild(tr)
     studentRecords.forEach(function getName(student) {
         var td = document.createElement('td');
-        td.textContent = student.id;
+        td.textContent = `ID: ${student.id}`;
         tr.appendChild(td)
     })
 }
@@ -80,7 +80,7 @@ function createRowForPaid() {
     tableData.appendChild(tr)
     studentRecords.forEach(function getName(student) {
         var td = document.createElement('td');
-        td.textContent = student.paid;
+        td.textContent = `Paid: ${student.paid}`;
         tr.appendChild(td)
     })
 }
