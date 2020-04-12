@@ -20,6 +20,50 @@ body {
     padding: 1rem;
 }
 
-.container-for-scope>h1,p {
+.nested-scope {
+    text-align: center;
+    width: 1871px;
+    border: 1px solid lightblue;
+    margin: auto;
+    height: 500px;
+}
+
+.w-75 {
+    border: 1px solid lightblue;
+    width: 75%;
+    height: 400px;
+    margin: .5rem auto;
+}
+
+.w-50 {
+    border: 1px solid lightblue;
+    width: 50%;
+    height: 300px;
+    margin: .5rem auto;
+}
+
+.w-25 {
+    border: 1px solid lightblue;
+    width: 25%;
+    height: 200px;
+    margin: .5rem auto;
+}
+
+.w-15 {
+    border: 1px solid lightblue;
+    width: 15%;
+    height: 100px;
+    margin: .5rem auto;
+}
+
+.w-10 {
+    border: 1px solid lightblue;
+    width: 10%;
+    height: 50px;
+    margin: .5rem auto;
+}
+
+.container-for-scope>h1,
+p {
     margin: auto;
 }
