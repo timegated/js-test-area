@@ -63,7 +63,6 @@ body {
     margin: .5rem auto;
 }
 
-.container-for-scope>h1,
-p {
-    margin: auto;
+.student-records {
+    border: 1px solid lightblue;
 }
