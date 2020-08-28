@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="./assets/css/styles.css">
+  <title>Design Patterns</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="js-container">
+    <h1>Contructor Pattern</h1>
+    <code>
+      var newObject = {}; <br>
+      var newObject = Object.create(Object.prototype); <br>
+      var newObject = new Object();
+    </code>
+
+    <h3>Four Ways Keys and Values Can be Assigned to an Object</h3>
+    <code>
+      <ul>
+        <h3>Dot Notation</h3>
+        <li>newObject.someKey = "Hello World";</li>
+        <li>new value = newObject.someKey;</li>
+        <h3>Bracket Syntax</h3>
+        <li>newObject["someKey"] = "Hello World";</li>
+        <li>var value = newObject["someKey"]</li>
+        <h3>Object.defineProperty</h3>
+        <li>Object.defineProperty(newObject, "someKey", { <br>
+          value: "for more control of the property's behaviour", <br>
+          writable: true, <br>
+          enumerable: true, <br>
+          configurable: true <br>
+        });</li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Object.defineProperties</h3>
+          
+        </li>
+      </ul>
+    </code>
+  </div>
+</body>
+</html>

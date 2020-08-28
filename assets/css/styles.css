@@ -13,19 +13,60 @@ body {
     display: flex;
     flex-direction: column;
 }
+header {
+    width: 100%;
+    z-index: 999;
+}
+
+nav {
+    width: 100%;
+    border: 1px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 1em;
+}
+li {
+    padding: 1em;
+}
+li a {
+    text-decoration: none;
+    color: #2c2c2c;
+    font-weight: bold;
+    border: 1px solid #2c2c2c;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background: #2c2c2c;
+    color: #efefef;
+    transition: all 0.5s ease-in;
+}
 
 .js-container {
-    border: 1px solid lightblue;
-    margin: 1rem;
+    position: relative;
+    top: 6em;
+    margin: 1em;
     padding: 1rem;
 }
 
 .nested-scope {
+    position: relative;
     text-align: center;
     width: 1871px;
     border: 1px solid lightblue;
-    margin: auto;
+    margin: 6em auto;
     height: 500px;
+    padding: 1rem;
 }
 
 .w-75 {
@@ -64,8 +105,16 @@ body {
 }
 
 .student-records {
+    position: relative;
     border: 1px solid lightblue;
     width: 75%;
-    padding: 1rem;
-    margin: 1rem auto;
+    padding: 1em;
+    margin: 1em auto;
+}
+code {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1em;
+    padding: 1em;
 }
