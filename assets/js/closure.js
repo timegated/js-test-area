@@ -27,8 +27,7 @@ const anotherMessage = () => {
 
 const funcAlert = anotherMessage();
 const funcAlert2 = anotherMessage();
-funcAlert();
-// funcAlert();  values are remembered from each execution;
-funcAlert();
-funcAlert2();
-funcAlert2();
+
+setInterval(() => {
+  funcAlert();
+}, 1000);
